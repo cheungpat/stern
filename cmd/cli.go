@@ -58,7 +58,7 @@ func Run() {
 		cli.StringFlag{
 			Name:  "namespace, n",
 			Usage: "Kubernetes namespace to use",
-			Value: "default",
+			Value: "",
 		},
 		cli.StringFlag{
 			Name:   "kube-config",

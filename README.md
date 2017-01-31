@@ -46,7 +46,7 @@ The `pod` query is a regular expression so you could provide `"web-\w"` to tail
 | `--since`       |                  | Return logs newer than a relative duration like 52, 2m, or 3h. Displays all if omitted   |
 | `--context`     |                  | Kubernetes context to use                                                                |
 | `--exclude`     |                  | Log lines to exclude; specify multiple with additional `--exclude`; (regular expression) |
-| `--namespace`   | `default`        | Kubernetes namespace to use                                                              |
+| `--namespace`   |                  | Kubernetes namespace to use                                                              |
 | `--kube-config` | `~/.kube/config` | Path to kubeconfig file to use                                                           |
 
 See `stern --help` for details
